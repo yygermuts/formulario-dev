@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    background: radial-gradient(circle, rgb(136, 136, 255), rgb(70, 0, 128));
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.questions-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+div.questions-container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+div.questions-container2 label {
+    display: block;
+}
+
+div.questions-container3 {
+    display: flex;
+    text-align: center;
+}
+
+div.questions-container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+textarea {
+    width: 300px;  
+    height: 150px;
+    resize: none;  
+}
+
+select {
+    background-color: purple;
+    width: 85px;
+    height: 37px;
+    text-align: center;
+    color: white;
+    border-radius: 13px;
+}
+
+input[type="radio"], input[type='checkbox'] {
+    accent-color: purple;
+}
